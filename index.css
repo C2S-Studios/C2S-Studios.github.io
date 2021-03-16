@@ -1,0 +1,75 @@
+/* GLOBAL */
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+hr {
+    margin: 3rem 7rem;
+}
+
+footer {
+    text-align: center;
+}
+
+/* NAVBAR */
+.navbar-brand-text {
+    margin-left: 1rem;
+}
+
+/* HEADER */
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SUB HEADER */
+.sub-header .internal {
+    margin-bottom: 5rem;
+}
+
+.sub-header .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.sub-header h2 {
+    font-weight: 400;
+}
+
+.sub-header .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+/* FEATURES */
+.feature-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS */
+@media (min-width: 40em) {
+    .feature-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .feature-heading {
+        margin-top: 7rem;
+    }
+}
